@@ -20,6 +20,8 @@ dependencies {
     runtime("org.postgresql:postgresql")
     compile("org.hibernate:hibernate-java8:$hibernateJava8Version")
 
+    compile("net.sf.dozer:dozer:$dozerVersion")
+
     compile("org.apache.commons:commons-lang3:$commonsVersion")
 
     compile("org.springframework.cloud:spring-cloud-starter-config:$cloudStarterVersion")

@@ -9,7 +9,11 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import java.time.LocalDateTime;
 
+/**
+ * System user entity.
+ */
 @Getter
 @Setter
 @Entity
@@ -21,6 +25,9 @@ public class SystemUser {
     @GenericGenerator(name = "uuid", strategy = "uuid2")
     @Column(updatable = false, nullable = false)
     private String id;
+
+    @Column(updatable = false, nullable = false)
+    private LocalDateTime createdDate = LocalDateTime.now();
 
     @Column
     private String forename;
