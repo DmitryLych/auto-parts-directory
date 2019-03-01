@@ -1,0 +1,12 @@
+version: '3.1'
+
+services:
+  db:
+    container_name: auto_parts_directory
+    image: postgres:9.6.5-alpine
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=ethernet
+      - POSTGRES_DB=auto_parts_directory

@@ -22,6 +22,8 @@ dependencies {
 
     compile("org.apache.commons:commons-lang3:$commonsVersion")
 
+    compile("org.springframework.cloud:spring-cloud-starter-config:$cloudStarterVersion")
+
     compileOnly("org.projectlombok:lombok")
 
     testCompile("org.springframework.boot:spring-boot-starter-test")
