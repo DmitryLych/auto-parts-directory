@@ -14,8 +14,5 @@ repositories {
 }
 
 dependencies {
-    compile("org.springframework.cloud:spring-cloud-dependencies:$dependenciesVersion")
     compile("org.springframework.cloud:spring-cloud-config-server:$cloudServerVersion")
-    
-    testCompile("org.springframework.boot:spring-boot-starter-test")
 }
