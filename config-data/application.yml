@@ -24,8 +24,3 @@ zuul:
     user-service:
       path: /api/v1/users/**
       serviceId: user-service
-    parts-directory-service:
-      path:
-        producers/**
-        vin-codes/**
-      serviceId: parts-directory-service
