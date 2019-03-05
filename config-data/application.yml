@@ -22,13 +22,5 @@ eureka:
 zuul:
   routes:
     user-service:
-      path: /api/v1/users
+      path: /api/v1/users/**
       serviceId: user-service
-
-hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 60000
