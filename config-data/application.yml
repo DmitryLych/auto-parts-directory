@@ -24,7 +24,3 @@ zuul:
     user-service:
       path: /api/v1/users/**
       serviceId: user-service
-
-ribbon:
-  eureka:
-    enabled: false
