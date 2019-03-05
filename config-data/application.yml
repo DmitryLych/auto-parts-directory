@@ -23,4 +23,4 @@ zuul:
   routes:
     user-service:
       path: /api/v1/users
-      serviceId: user-service
+      serviceId: USER-SERVICE
