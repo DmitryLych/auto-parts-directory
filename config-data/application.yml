@@ -18,3 +18,15 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8010/eureka/
+
+zuul:
+  prefix: /api/v1/
+  routes:
+    user-service:
+      path: users/**
+      serviceId: user-service
+    parts-directory-service:
+      path:
+        producers/**
+        vin-codes/**
+      serviceId: parts-directory-service

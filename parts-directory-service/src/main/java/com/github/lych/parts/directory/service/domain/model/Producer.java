@@ -16,7 +16,7 @@ import javax.persistence.Table;
 @Table(name = "producer")
 public class Producer extends AbstractEntity {
 
-    @Column
+    @Column(unique = true, nullable = false)
     private String name;
     @Column
     private String address;
