@@ -13,3 +13,8 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/

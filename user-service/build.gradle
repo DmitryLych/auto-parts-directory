@@ -25,6 +25,7 @@ dependencies {
     compile("org.apache.commons:commons-lang3:$commonsVersion")
 
     compile("org.springframework.cloud:spring-cloud-starter-config:$cloudStarterVersion")
+    compile("org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:$eurekaClientVersion")
 
     compileOnly("org.projectlombok:lombok")
 
