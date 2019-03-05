@@ -23,4 +23,12 @@ zuul:
   routes:
     user-service:
       path: /api/v1/users
-      serviceId: USER-SERVICE
+      serviceId: user-service
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
