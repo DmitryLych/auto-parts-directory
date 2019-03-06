@@ -29,3 +29,14 @@ zuul:
       path: /api/v1/producers/**
       stripPrefix: false
       serviceId: parts-directory-service
+
+mail:
+  user:
+    email-address: autopart.directory@gmail.com
+    email-password: 4119641196d
+  smtp:
+    auth-enabled: true
+    tls-enabled: true
+    ssl-enabled: false
+    host: smtp.gmail.com
+    port: 587
