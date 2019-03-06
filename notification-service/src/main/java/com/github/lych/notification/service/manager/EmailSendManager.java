@@ -1,4 +1,4 @@
-package com.github.lych.notification.service.domain.manager;
+package com.github.lych.notification.service.manager;
 
 public interface EmailSendManager {
 

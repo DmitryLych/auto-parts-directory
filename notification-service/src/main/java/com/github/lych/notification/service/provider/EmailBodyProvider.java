@@ -1,6 +1,6 @@
-package com.github.lych.notification.service.domain.provider;
+package com.github.lych.notification.service.provider;
 
-import com.github.lych.notification.service.domain.model.EmailTemplatePlaceholder;
+import com.github.lych.notification.service.model.EmailTemplatePlaceholder;
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.Map;

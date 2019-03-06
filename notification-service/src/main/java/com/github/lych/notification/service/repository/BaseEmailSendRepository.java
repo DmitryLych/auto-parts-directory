@@ -1,7 +1,7 @@
-package com.github.lych.notification.service.domain.repository;
+package com.github.lych.notification.service.repository;
 
-import com.github.lych.notification.service.domain.config.EmailConfig;
-import com.github.lych.notification.service.domain.model.EmailMessage;
+import com.github.lych.notification.service.config.EmailConfig;
+import com.github.lych.notification.service.model.EmailMessage;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

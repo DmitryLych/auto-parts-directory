@@ -1,9 +1,9 @@
-package com.github.lych.notification.service.domain.service;
+package com.github.lych.notification.service.service;
 
-import com.github.lych.notification.service.domain.exception.IllegalArgumentServiceException;
-import com.github.lych.notification.service.domain.model.EmailTemplate;
-import com.github.lych.notification.service.domain.model.EmailTemplateType;
-import com.github.lych.notification.service.domain.repository.EmailTemplateRepository;
+import com.github.lych.notification.service.exception.IllegalArgumentServiceException;
+import com.github.lych.notification.service.model.EmailTemplate;
+import com.github.lych.notification.service.model.EmailTemplateType;
+import com.github.lych.notification.service.repository.EmailTemplateRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

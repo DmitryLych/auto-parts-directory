@@ -1,4 +1,4 @@
-package com.github.lych.notification.service.domain.model;
+package com.github.lych.notification.service.model;
 
 import lombok.Getter;
 import lombok.Setter;

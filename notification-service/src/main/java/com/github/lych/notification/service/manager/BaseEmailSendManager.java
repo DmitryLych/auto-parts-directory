@@ -1,16 +1,16 @@
-package com.github.lych.notification.service.domain.manager;
+package com.github.lych.notification.service.manager;
 
-import com.github.lych.notification.service.domain.model.EmailMessage;
-import com.github.lych.notification.service.domain.model.EmailTemplate;
-import com.github.lych.notification.service.domain.repository.EmailSendRepository;
-import com.github.lych.notification.service.domain.service.EmailTemplateService;
+import com.github.lych.notification.service.model.EmailMessage;
+import com.github.lych.notification.service.model.EmailTemplate;
+import com.github.lych.notification.service.repository.EmailSendRepository;
+import com.github.lych.notification.service.service.EmailTemplateService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import static com.github.lych.notification.service.domain.model.EmailTemplatePlaceholder.CODE;
-import static com.github.lych.notification.service.domain.model.EmailTemplateType.REGISTRATION;
-import static com.github.lych.notification.service.domain.provider.EmailBodyProvider.provideBody;
+import static com.github.lych.notification.service.model.EmailTemplatePlaceholder.CODE;
+import static com.github.lych.notification.service.model.EmailTemplateType.REGISTRATION;
+import static com.github.lych.notification.service.provider.EmailBodyProvider.provideBody;
 import static java.util.Collections.singletonMap;
 import static org.apache.commons.lang3.StringUtils.isBlank;
 

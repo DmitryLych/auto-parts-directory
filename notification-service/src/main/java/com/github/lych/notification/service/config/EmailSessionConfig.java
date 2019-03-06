@@ -1,4 +1,4 @@
-package com.github.lych.notification.service.domain.config;
+package com.github.lych.notification.service.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

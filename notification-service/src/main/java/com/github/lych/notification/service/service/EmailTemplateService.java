@@ -1,7 +1,7 @@
-package com.github.lych.notification.service.domain.service;
+package com.github.lych.notification.service.service;
 
-import com.github.lych.notification.service.domain.model.EmailTemplate;
-import com.github.lych.notification.service.domain.model.EmailTemplateType;
+import com.github.lych.notification.service.model.EmailTemplate;
+import com.github.lych.notification.service.model.EmailTemplateType;
 
 /**
  * The interface Email template service.

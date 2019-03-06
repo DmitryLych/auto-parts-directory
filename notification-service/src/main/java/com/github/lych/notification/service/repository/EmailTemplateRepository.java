@@ -1,7 +1,7 @@
-package com.github.lych.notification.service.domain.repository;
+package com.github.lych.notification.service.repository;
 
-import com.github.lych.notification.service.domain.model.EmailTemplate;
-import com.github.lych.notification.service.domain.model.EmailTemplateType;
+import com.github.lych.notification.service.model.EmailTemplate;
+import com.github.lych.notification.service.model.EmailTemplateType;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
