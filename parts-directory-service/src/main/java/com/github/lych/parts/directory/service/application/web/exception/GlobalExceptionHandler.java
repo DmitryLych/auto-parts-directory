@@ -1,10 +1,10 @@
-package com.github.lych.user.service.application.web.exception;
+package com.github.lych.parts.directory.service.application.web.exception;
 
-import com.github.lych.user.service.application.web.dto.response.ErrorResponse;
-import com.github.lych.user.service.application.web.dto.response.FieldErrorResponse;
-import com.github.lych.user.service.application.web.dto.response.ValidationErrorResponse;
-import com.github.lych.user.service.domain.exception.IllegalArgumentServiceException;
-import com.github.lych.user.service.domain.exception.ResourceNotFoundServiceException;
+import com.github.lych.parts.directory.service.application.web.dto.response.ErrorResponse;
+import com.github.lych.parts.directory.service.application.web.dto.response.FieldErrorResponse;
+import com.github.lych.parts.directory.service.application.web.dto.response.ValidationErrorResponse;
+import com.github.lych.parts.directory.service.domain.exception.IllegalArgumentServiceException;
+import com.github.lych.parts.directory.service.domain.exception.ResourceNotFoundServiceException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -18,7 +18,7 @@ import java.util.List;
 import static java.util.stream.Collectors.toList;
 
 /**
- * The type Global exception handler.
+ * Global exception handler.
  */
 @Slf4j
 @ControllerAdvice

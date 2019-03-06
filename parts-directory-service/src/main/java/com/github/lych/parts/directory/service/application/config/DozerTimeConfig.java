@@ -9,6 +9,9 @@ import java.time.LocalDateTime;
 
 import static org.dozer.loader.api.TypeMappingOptions.oneWay;
 
+/**
+ * Time mapping rules.
+ */
 public class DozerTimeConfig extends BeanMappingBuilder {
 
     @Override

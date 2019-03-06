@@ -23,4 +23,9 @@ zuul:
   routes:
     user-service:
       path: /api/v1/users/**
+      stripPrefix: false
       serviceId: user-service
+    parts-directory-service:
+      path: /api/v1/producers/**
+      stripPrefix: false
+      serviceId: parts-directory-service

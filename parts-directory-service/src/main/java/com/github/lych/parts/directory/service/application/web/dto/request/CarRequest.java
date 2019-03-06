@@ -8,6 +8,9 @@ import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.time.LocalDate;
 
+/**
+ * The type Car request.
+ */
 @Getter
 @Setter
 public class CarRequest implements Serializable {

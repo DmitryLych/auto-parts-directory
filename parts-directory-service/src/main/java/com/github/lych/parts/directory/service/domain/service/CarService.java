@@ -26,6 +26,14 @@ public interface CarService {
     Car get(String id);
 
     /**
+     * Get cars by identifiers.
+     *
+     * @param ids a list of identifiers
+     * @return list of cars
+     */
+    List<Car> getByIds(List<String> ids);
+
+    /**
      * Gets all.
      *
      * @return the all

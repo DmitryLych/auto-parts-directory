@@ -4,6 +4,9 @@ import org.dozer.BeanFactory;
 
 import java.time.LocalDate;
 
+/**
+ * The type Local date 2 local date.
+ */
 public class LocalDate2LocalDate implements BeanFactory {
 
     @Override

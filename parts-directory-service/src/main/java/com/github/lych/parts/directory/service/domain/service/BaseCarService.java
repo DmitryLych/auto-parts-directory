@@ -37,6 +37,11 @@ public class BaseCarService implements CarService {
     }
 
     @Override
+    public List<Car> getByIds(final List<String> ids) {
+        return null;
+    }
+
+    @Override
     public List<Car> getAll() {
         return repository.findAll();
     }
