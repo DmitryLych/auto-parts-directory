@@ -20,6 +20,8 @@ eureka:
       defaultZone: http://localhost:8010/eureka/
 
 zuul:
+  debug:
+    request: true
   routes:
     user-service:
       path: /api/v1/users/**
