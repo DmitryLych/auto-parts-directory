@@ -1,6 +1,6 @@
-logging:
-  level:
-    org.springframework.cloud.netflix: debug
+#logging:
+#  level:
+#    org.springframework.cloud.netflix: debug
 
 spring:
   datasource:
